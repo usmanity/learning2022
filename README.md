@@ -9,6 +9,12 @@
     - [ ] Testing with Jest, react-testing-library
     - [ ] SSR
 
+- [ ] Python
+    - [ ] Syntax
+    - [ ] Virtual env
+    - [ ] FastAPI basics
+    - [ ] HTTP Requests
+
 - [ ] Go lang
     - [ ] Basic usage
     - [ ] Web usage
