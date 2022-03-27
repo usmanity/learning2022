@@ -10,9 +10,13 @@
     - [ ] SSR
 
 - [ ] Python
-    - [ ] Syntax
-    - [ ] Virtual env
+    - [x] Syntax
+    - [x] Virtual env
+    	- [ ] deploying virtual envs
     - [ ] FastAPI basics
+    	- [ ] forms
+	- [ ] auth
+	- [ ] deploying
     - [ ] HTTP Requests
 
 - [ ] Go lang
