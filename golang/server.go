@@ -20,7 +20,11 @@ func postReq(rw http.ResponseWriter, req *http.Request) {
 		http.Error(rw, "something went wrong", http.StatusBadRequest)
 	}
 	// tell me how Go is simpler than another lang?
-	rw.Write([]byte(pl.User))
+	_, err := rw.Write([]byte(pl.User))
+	if err != nil {
+		http.Error(rw, "something went wrong when writing response", http.StatusBadRequest)
+	}
+
 }
 
 func main() {
